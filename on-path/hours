@@ -1,1 +1,3 @@
-../on-path/hours
+#!/bin/bash
+
+ruby $HOME/Documents/HoursCalculator/hours_calculator.rb $@
