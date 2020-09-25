@@ -1,5 +1,5 @@
 # put AWS cli on path
-export PATH="~/Library/Python/3.7/bin/:${PATH}"
+# export PATH="~/Library/Python/3.7/bin/:${PATH}"
 
 # git autocompletion
 source ~/git-completion.bash
@@ -9,6 +9,9 @@ export PATH="$PATH:$HOME/on-path"
 
 # add homebrew stuff to PATH
 source ~/.brew_profile
+
+# add `eb` (elasticbeanstalk) command to PATH
+export PATH="~/.ebcli-virtual-env/executables:$PATH"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
@@ -25,3 +28,7 @@ alias ll='ls -l'
 alias ls='ls -GFh'
 alias g='git'
 alias dexssh='ssh -l dexter -A'
+alias nano='vim'
+
+# always use vim
+EDITOR=vim
