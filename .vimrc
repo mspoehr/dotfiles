@@ -1,5 +1,8 @@
 " Configuration
 
+" Colors
+colors badwolf
+
 " Basic Settings
 
 filetype plugin indent on
@@ -10,9 +13,11 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
+set smarttab
 set encoding=utf-8
-set scrolloff=3
+set scrolloff=5
 set autoindent
+set smartindent
 set showmode
 set showcmd
 set hidden
@@ -38,8 +43,21 @@ set linebreak
 set nolist
 set formatoptions=qrn1
 set spell spelllang=en_us
+hi clear SpellBad
+hi SpellBad cterm=underline
+
+" Display & format
+set number
 
 " Aesthetics
+
+" Highlight whitespace at ends of lines
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
+autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+autocmd InsertLeave * match ExtraWhitespace /\s\+$/
+autocmd BufWinLeave * call clearmatches()
 
 " Mappings and shortcuts
 
