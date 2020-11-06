@@ -1,0 +1,7 @@
+alias ll='ls -l'
+alias ls='ls -GFh'
+alias cat='bat --plain'
+alias g='git'
+alias nano='vim'
+alias zcat='gzcat'
+alias t='hours'

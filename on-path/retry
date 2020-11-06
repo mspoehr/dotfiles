@@ -1,4 +1,0 @@
-#!/bin/bash
-until eval $@; do
-  sleep 1
-done

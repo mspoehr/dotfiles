@@ -1,6 +1,1 @@
-# prefer homebrew stuff over os stuff
-# export PATH="/usr/local/bin:${PATH}"
-
-# specific exports
-# export PATH="$(brew --prefix qt@5.5)/bin:$PATH"
 export PATH="/usr/local/opt/gnu-tar/libexec/gnubin:$PATH"

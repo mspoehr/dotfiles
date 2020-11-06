@@ -1,0 +1,6 @@
+# project shortcuts
+export PROJECTS=/Users/michaelspoehr/Documents/Projects
+export COLLEGE_PARK=/Users/michaelspoehr/Documents/Projects/College_Park/DigitalArm2/git/
+export CODE_RED=/Users/michaelspoehr/Documents/Personal/CodeRedRobotics
+export DEXTER=/Users/michaelspoehr/Documents/Projects/Dexter/git/
+export MMS=/Users/michaelspoehr/Documents/Projects/MMS/

@@ -1,5 +1,0 @@
-#!/bin/bash
-
-eval $@
-curl "localhost:8700/cmd?err=$?"
-echo 

@@ -1,5 +1,5 @@
 [user]
 	email = michael.spoehr@dornerworks.com
 	name = Michael Spoehr
-[core]
-	editor = nano
+[pull]
+	rebase = true
