@@ -2,6 +2,11 @@
 	email = michael.spoehr@dornerworks.com
 	name = Michael Spoehr
 [pull]
-	rebase = true
+    ff = only
 [core]
 	pager = diff-so-fancy | less --tabs=4 -RFX
+[color "diff"]
+	meta = 11
+	commit = yellow bold
+[diff-so-fancy]
+	markEmptyLines = false
